@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package test;
+option java_multiple_files = true;
+option java_package = "cs477.labs.protobufftest";
+option java_outer_classname = "PredictionsProtos";
+
+
+message SoundObj{
+  optional string name = 1;
+  optional int32 location = 2;
+  optional string time = 3;
+  optional string amplitude = 4;
+}

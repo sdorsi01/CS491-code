@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package test;
+
+message SoundObj{
+  optional string name = 1;
+  optional int32 location = 2;
+  optional string time = 3;
+  optional string amplitude = 4;
+}
